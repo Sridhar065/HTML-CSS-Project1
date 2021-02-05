@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sample Website</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/8c9a6a4c82.js"></script>
+</head>
+<body onload="alert('hi im fuly loaded')">
+ <style>
+ 
+ </style>
+
+<!--Header Menu-->
+ 
+<p id="test"></p>
+<!-- <ul id="list">
+  <li>Sridhar</li>
+  <li>Vijay</li>
+  <li>Akash</li> 
+  
+</ul>
+
+<h1 id="name">Sridhar</h1> -->
+
+
+<input type="number" id="one">
+<input type="number" id="two">
+
+
+<!-- <button onclick="addition()">SUB</button>
+<button onclick="multi();">mul</button>
+<button onclick="div();">div</button> -->
+<button onclick="nameone()">click</button>
+
+<!--Assignments-->
+<!-- //Please do the prompt method-->
+<!--//Remove elements-->
+<!--// Window inner width inner height please work on it some sample-->
+<!--Get Attributes method..do some examples-->
+
+
+ <script>
+  
+   //counter example
+  //  var names = prompt("Enter Name").value;
+ 
+    // function adds(){
+    // var count = document.getElementById('test').innerHTML;
+    // count++;
+    // document.getElementById('test').innerHTML=count;
+    // }
+
+    // function adds(){
+    //  var elem = document.createElement('h1');
+    //  var text = document.createTextNode('shbfjdvbfjhdsbfhsdbfjhsdbfsdbfjksdbfjbf');
+    //  elem.appendChild(text);
+    //  document.getElementById('list').appendChild(elem);
+    // }
+
+    // function addname(){
+    //   document.getElementById('name').innerHTML="Vijay";
+    // }
+
+    // function windowsize(){
+    //   var width = window.outerWidth;
+    //   var height = window.outerHeight;
+    //   document.getElementById('test').innerHTML="The width is "+ width + "The height is" + height;
+    // }
+    // window.onresize=windowsize;
+
+    // function settings(){
+    //  document.getElementById('sample').setAttribute('id','sridhar');
+    //  document.getElementById('sridhar').innerHTML="im okay";
+    // }
+    // function addition(){
+    //   var one = parseInt(document.getElementById('one').value);
+    //   var two = parseInt(document.getElementById('two').value);
+    //   alert(one-two);
+    // }
+    // 
+    // function div(){
+    //   var one = parseInt(document.getElementById('one').value);
+    //   var two = parseInt(document.getElementById('two').value);
+    //   alert(one/two);
+    // }
+
+    function nameone(){
+        
+    }
+
+
+ </script>
+</body>
+</html>
